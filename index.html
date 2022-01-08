@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+    <div class="title">Etch-a-Sketch</div>
+    <div class="content">
+        <div class="options">
+            <div class="grid-options">
+                Size Options
+                <button id="reset-button">Clear</button>
+                <button id="size-10">10 x 10</button>
+                <button id="size-16">16 x 16</button>
+                <button id="size-20">20 x 20</button>
+                <button id="size-32">32 x 32</button>
+                <div class="sideValues">16 x 16</div>
+                <input type="range" min="1" max="50" value="16" id="sizeSlider">
+            </div>
+        </div>
+        <div class="grid-container">
+            <!-- Drawing grid goes in here -->
+        </div>
+    </div>
+</body>
+</html>
